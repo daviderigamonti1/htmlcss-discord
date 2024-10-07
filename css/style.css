@@ -50,6 +50,9 @@ body {
     color: var(--dark);
 }
 
+.text-purple {
+    color: var(--purple);
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -106,6 +109,11 @@ ul {
 .column {
     flex-direction: column;
 }
+
+.row {
+    flex-direction: row;
+}
+
 /*header*/
 
 div ul li a {
@@ -162,6 +170,18 @@ header div button {
     text-align: center;
 }
 
+.bt-registrati {
+    background-color: var(--purple);
+    color: white;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 30px;
+    border-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
 h1 {
     padding-bottom: 20px;
     font-size: 3em;
@@ -193,8 +213,29 @@ h3 {
 }
 
 /*footer*/
-footer {
+
+.padding-footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid var(--purple);
+}
+
+footer section div ul li {
+    padding-bottom: 20px;
+}
+
+h4 {
+    font-size: 2em;
+    width: 250px;
+}
+
+.icon {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+#Language {
     background-color: var(--dark);
     color: white;
-    height: 300px;
+    margin-top: 20px;
 }
