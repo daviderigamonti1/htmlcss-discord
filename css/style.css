@@ -50,6 +50,10 @@ body {
     color: var(--dark);
 }
 
+.text-light {
+    color: var(--light);
+}
+
 .text-purple {
     color: var(--purple);
 }
@@ -208,8 +212,28 @@ p {
 
 h3 {
     font-size: xx-large;
-    width: 500px;
-    padding-bottom: 40px;
+    width: 550px;
+    padding-bottom: 60px;
+    line-height: 10px;
+    background-image: url('../img/stars.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.wave {
+    height: 100px;
+    width: 100%;
+    background-image: url('../img/wave.svg');
+    opacity: 0.03;
+}
+
+#wave-light {
+    height: 100px;
+    width: 100%;
+    background-image: url('../img/wave.svg');
+    background-color: var(--light);
+    opacity: 0.03;
+    transform: rotate(180deg);
 }
 
 /*footer*/
@@ -220,7 +244,7 @@ h3 {
     border-bottom: 1px solid var(--purple);
 }
 
-footer section div ul li {
+footer section nav ul li {
     padding-bottom: 20px;
 }
 
